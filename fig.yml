@@ -1,0 +1,9 @@
+site:
+  image: jkblog
+  command: jekyll serve -port 6000  --force_polling
+  volumes:
+    - .:/data
+  ports:
+    - "0.0.0.0:6000:6000"
+
+# docker run -it -v $(pwd):/data -p 6000:6000 jkblog ruby -S jekyll serve --host=0.0.0.0 --watch --force_polling
