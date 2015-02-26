@@ -13,7 +13,7 @@ site:
 # go to that ip in browser to view locally :4000
 
 # -- post ---
-# touch _posts/`date +%Y-%m-%d`-my-first-post.md
+ touch _posts/`date +%Y-%m-%d`-my-first-post.md
 # yaml
 #---
 #author:		Marcelo Pinheiro
