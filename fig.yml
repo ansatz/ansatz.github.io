@@ -6,4 +6,26 @@ site:
   ports:
     - "0.0.0.0:6000:6000"
 
+# -- run server ---
 # docker run -it -v $(pwd):/data -p 6000:6000 jkblog ruby -S jekyll serve --host=0.0.0.0 --watch --force_polling
+# docker ps -l //get cid of jkblog
+# docker inspect <cid> | grep IPAdress
+# go to that ip in browser to view locally :4000
+
+# -- post ---
+# touch _posts/`date +%Y-%m-%d`-my-first-post.md
+# yaml
+#---
+#author:		Marcelo Pinheiro
+#title:		My First Post
+#layout:		post
+#date:		2014-11-06 20:20:00
+#---
+#http://salizzar.net/2014/11/06/creating-a-github-jekyll-blog-using-docker/
+
+# --- git ---
+# git add .
+# git commit -m "some msg"
+# git push -u origin master
+
+#
