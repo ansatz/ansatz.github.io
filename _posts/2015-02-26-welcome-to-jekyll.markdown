@@ -28,7 +28,7 @@ categories: jekyll update
 {% endhighlight %}
 
 
-` --- git ---`
+` --- git ---` [github][live]
 {% highlight bash %}
  git add .
  git commit -m "some msg"
@@ -58,3 +58,4 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 [ref1]:  http://jekyllrb.com/docs/posts/
 [ref2]:	 http://salizzar.net/2014/11/06/creating-a-github-jekyll-blog-using-docker/
+[live]:  http://ansatz.github.io/
