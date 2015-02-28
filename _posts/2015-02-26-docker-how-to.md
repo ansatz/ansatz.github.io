@@ -16,29 +16,33 @@ date:		2015-02-26 15:38:44
 - `docker build -t <imagename> .`
   - build image from Dockerfile 
 
-- `docker run -v $(pwd):/data <image> CMD`
+- `docker run -v $(pwd):/data <image> CMD -p 6000:6000 jkblog ruby -S jekyll serve --host=0.0.0.0 --watch --force_polling`
   - -v: mount curr directory inside container @/data
   - run container
+  - fig file not working
 
 - `docker exec -it <cid> /bin/bash`
   - enter a container
 
 - 
    `docker ps -l`  
-   `docker <CID> inspect | grep IPAdress`
-   - get ip
-- docker commit <cid> <oldname/newname>
+   `docker inspect <CID> | grep IPAddress`
+    - get ip
+
+- `docker commit <cid> <oldname/newname>`
   - container -> image
 
-- docker images -q --filter "dangling=true" | xargs docker rmi
-- docker rm `docker ps --no-trun -aq`
-  - clean up docker images `rmi`, container `rm`
+- 
+  `docker images -q --filter "dangling=true" | xargs docker rmi`
+  `docker rm docker ps --no-trun -aq`
+    - clean up docker images `rmi`, container `rm`
 
-- `sudo usermod -a -G docker <user>`
-- sudo service docker restart
-- grep <user> /etc/group
-- newgrp docker  //refresh shell w/o need to logout
-  - add user group
+- 
+  `sudo usermod -a -G docker <user>`  
+  `sudo service docker restart`  
+  `grep <user> /etc/group`  
+  `newgrp docker`  //refresh shell w/o need to logout
+    - add user group
 
 
 
