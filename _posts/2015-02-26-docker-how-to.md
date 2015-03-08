@@ -16,13 +16,19 @@ date:		2015-02-26 15:38:44
 - `docker build -t <imagename> .`
   - build image from Dockerfile 
 
+- `docker run -i -t <image>
+  - run image and and attach at same time
+
 - `docker run -v $(pwd):/data <image> CMD -p 6000:6000 jkblog ruby -S jekyll serve --host=0.0.0.0 --watch --force_polling`
   - -v: mount curr directory inside container @/data
   - run container
   - fig file not working
 
-- `docker exec -it <cid> /bin/bash`
-  - enter a container
+- 
+  `docker exec -it <cid> /bin/bash`
+  `docker attach <CID>
+	- enter a container, form another terminal
+	- enter containr from same terminal
 
 - 
    `docker ps -l`  
@@ -33,8 +39,8 @@ date:		2015-02-26 15:38:44
   - container -> image
 
 - 
-  `docker images -q --filter "dangling=true" | xargs docker rmi`
-  `docker rm docker ps --no-trun -aq`
+  `docker images -q --filter "dangling=true" | xargs docker rmi`  
+  `docker rm \`docker ps --no-trunc -aq\``
     - clean up docker images `rmi`, container `rm`
 
 - 
@@ -45,6 +51,10 @@ date:		2015-02-26 15:38:44
     - add user group
 
 
+### fig
+- `fig rm --force -v`
+	- remove containers
+- `fig ps`
 
 ### Dockerfile 
 

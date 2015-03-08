@@ -1,0 +1,14 @@
+---
+Author:		gsingh
+title:          vim how-to
+layout:         post
+date:           2015-03-02 12:28:26 
+---
+
+### vim
+- `vim --version | grep '(python|ruby)'`
+	- check python support
+
+
+### .vimrc
+-  

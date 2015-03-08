@@ -5,5 +5,4 @@ layout:		post
 date:		2015-02-25 20:20:00
 ---
 
-#[resume]({{ site.url }}/files/singh.pdf)
-[resume](/files/singh.pdf)
+[resume](/files/sngRsm.pdf)

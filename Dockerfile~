@@ -8,4 +8,3 @@ WORKDIR /data
 
 CMD [ "jekyll", "-v" ]
 
-

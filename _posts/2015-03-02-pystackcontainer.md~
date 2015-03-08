@@ -1,0 +1,33 @@
+---
+Author:		gsingh
+title:          python stack container 
+layout:         post
+date:           2015-03-02 12:28:26 
+---
+
+---
+
+### DockerFile
+
+FROM python2.7
+
+RUN apt-get install -y pip
+
+VOLUME ["/project"]
+
+WORKDIR /project
+
+CMD pip install requirements.txt
+
+### Docker
+
+- `docker build -t <image>`
+  - build image from Dockerfile
+
+- 
+  `git add .`  
+  `git commit -m 'some msg'`  
+  `git push -u origin master`
+	- push to git
+
+ 
