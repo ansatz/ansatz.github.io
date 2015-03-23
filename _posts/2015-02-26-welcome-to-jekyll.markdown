@@ -21,12 +21,12 @@ categories: jekyll update
 {% highlight bash %}
  touch _posts/`date +%Y-%m-%d`-a_title.md
 > yaml header
-#---
-#author:                ansatz
-#title:         	__title__
-#layout:                post
-#date:          	2014-11-06 20:20:00
-#---
+---
+author:                ansatz
+title:         	__title__
+layout:                post
+date:          	2014-11-06 20:20:00
+---
 {% endhighlight %}
 
 
@@ -37,7 +37,15 @@ categories: jekyll update
  git push -u origin master
 {% endhighlight %}
 
-
+- image style
+{% highlight css %}
+<div style="float:right; margin:8px; text-align:center">
+  <a href="http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html"><img
+    src="http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg"
+	  title="Noam Chomsky" width=106></a>
+	    <bR>Noam Chomsky
+		</div>
+{% endhighlight %}
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
