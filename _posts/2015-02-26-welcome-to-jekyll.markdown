@@ -1,9 +1,17 @@
 ---
 layout: post
-title:  "jekyll github how-to"
+title:  "jekyll"
 date:   2015-02-26 18:57:26
 categories: jekyll update
+tags:	[jekyll]
 ---
+# tags css
+- tags
+[cloud](http://codingtips.kanishkkunal.in/tag-cloud-jekyll/)
+[tag](http://charliepark.org/tags-in-jekyll/)
+
+
+
 `date +%Y-%m-%d\ %H:%M:%S`
 [md syntax](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md)
 

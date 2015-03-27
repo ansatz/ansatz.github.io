@@ -1,0 +1,52 @@
+
+<script type="text/javascript" src="/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js/jquery.sparkline.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.sparkline/2.1.2/jquery.sparkline.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+		$('.dynamicsparkline').sparkline([1,2,3,4,5], {type: 'bar'});
+});
+
+if(!window.jQuery){
+	alert('not loaded')
+}
+</script>
+
+<form>
+	<span class="dynamicsparkline"></span>	
+	<input type="text" id="original">
+	<br>
+	<input type="text" id="current">
+	<br>
+	<input type="text" id="accrued">
+	<br>
+	<input type="text" id="interest">
+	<br>
+	<input type="text" id="years">
+	<br>
+	<input type="submit" value="enter">
+	<span class="dynamicsparkline"></span>	
+</form>
+
+<!--
+$(function{
+	var avals=[1,2,3,4];
+	alert(avals);
+	$('.dynamicsparkline').sparkline(avals);
+	});
+});
+</script>
+-->
+
+	
+<!--
+	//stacked barchart
+	//composite inline
+	//x-axis years blue is principal, red is interest
+	//y-axis amount in $
+	// balance ?
+
+	//amortize
+-->

@@ -1,0 +1,21 @@
+<form onSubmit="return checkForLastName('{{ include.arg }}', '{{ include.pw }}');">
+	{{ include.description }}.<br>
+	<input type="text" id="lastNameField">
+	<input type="submit" value="enter">
+</form>
+
+
+<script type="text/javascript">
+function checkForLastName(a,p) {
+		if (document.getElementById("lastNameField").value != p ) {
+			alert("please email for pw");
+			return false; 
+		}
+		else {
+			var urlon = "http://ansatz.github.io/";
+			var urloff = "http:172.17.0.49:4000/";
+			url1 = urloff + "files/sngRsm.pdf";
+			window.open(a)
+		}
+}
+</script>

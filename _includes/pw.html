@@ -1,0 +1,30 @@
+
+<form onSubmit="return pw('{{ include.pw }}');">
+	{{ include.description }}<br>
+	<input type="text" id="pw"> 
+	<input type="submit" value="enter">
+</form>
+
+<script type="text/javascript">
+	function pw(p) {
+	if (document.getElementById("pw").value.length === 0) {
+		alert(p);
+		document.getElementById.focus();
+		return false
+	}
+//	alert(arguments[0] )
+//   alert( p )
+//   var inputfield = document.getElementById("pw").value;
+//   alert(inputfield)
+//   if (inputfield.value !== p) {
+//   	alert 'hei'	
+//   	//var link = "<a href=" + url + "></a>"
+//   	//var docref = inputfield.appendChild(link);
+//   	//window.location = link
+//   	return false;
+//   	}
+//   else if(inputfield.value === password) {
+//   	return document.location.href = url
+//   	}
+//}
+</script>

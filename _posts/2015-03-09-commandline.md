@@ -13,6 +13,21 @@ date:		   2015-03-09 16:42:30
 <br><br><br>
 
 # docker read IPAddress script
+{% highlight bash %}
+
+function jkl()
+{
+    cd ~/fig.jekyll.docker
+    docker run -d -v $(pwd):/data -p 6000:6000 --name jekyll jkblog ruby -S jekyll serve --host=0.0.0.0 --watch --force_polling
+    fl=`docker inspect jekyll | grep IPAddress | awk '{print substr($2,2,11)}'`
+    fli=http\:\/\/$fl:4000\/
+    echo $fli
+    firefox $fli
+}
+
+
+
+{% endhighlight %}
 
 # multiline shell input [here code block](http://tldp.org/LDP/abs/html/here-docs.html)
 `cat <<-EOF | python -

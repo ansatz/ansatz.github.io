@@ -7,7 +7,18 @@ date:           2015-03-02 12:28:26
 
 ---
 
+### working [Dockerfile](http://pastebin.com/KnyXAXu7)
+- project()
+	- launches docker daemon to ipython notebook
+	- launches exec to container for vim
+	- launch exec to container for python /bin/bash
+	- add private patient data link to container
+
+	
 {% include image.html url="https://s3.amazonaws.com/serversforhackers/difference.png" wide="400" %}
+
+#
+
 - dev layer
 <br>
 <br>
