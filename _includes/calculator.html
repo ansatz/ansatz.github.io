@@ -3,6 +3,9 @@
 <script type="text/javascript" src="/js/jquery.sparkline.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/jquery.sparkline/2.1.2/jquery.sparkline.min.js"></script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 <script type="text/javascript">
 $(function(){
@@ -16,20 +19,63 @@ if(!window.jQuery){
 
 <form>
 	<span class="dynamicsparkline"></span>	
-	<input type="text" id="original">
+	<input type="text" id="original" value="50000">original
 	<br>
-	<input type="text" id="current">
+	<input type="text" id="current">current
 	<br>
-	<input type="text" id="accrued">
+	<input type="text" id="accrued">accrued
 	<br>
-	<input type="text" id="interest">
+	<input type="text" id="interest" value="0.03">interest
 	<br>
-	<input type="text" id="years">
+	<input type="text" id="years" value="5">years
 	<br>
 	<input type="submit" value="enter">
 	<span class="dynamicsparkline"></span>	
 </form>
+<br>
+<br>
+c:
+<span class="dsp" id="c"></span>
 
+<script type="text/javascript">
+var r = $('#interest').value;
+var N = $('#years').value * 12;
+var P_0 = $('#original').value;
+var im = 0;
+var arr=[]
+var N_i=0;
+function pmt( P_i ) {
+	N_i=N_i+1;
+	var num_0 = Math.pow(1+r, N_i) * r * P_0;
+	var den_0 = Math.pow(1+r, N_i);
+	var c = num_0/den_0
+	//base case
+	P_i = P_i - c;
+	alert ('update n_i')
+	alert(N_i)
+	alert(P_i)
+	im=im+1;
+	//iter
+	if( P_i > 100 ) {
+		alert('N_i');
+		alert(N_i);
+		alert(P_i)
+		pmt( P_i ) ;
+	}
+	else
+		alert('else n_i');
+		alert(N_i)
+		alert(P_i)
+		return P_i  ;
+}
+
+$(function(){
+		arr.push( pmt( P_0 ) );
+		alert('yo')
+		alert( arr)
+		$('.dsp').sparkline( arr , {type: 'bar'});
+});
+</script>
 <!--
 $(function{
 	var avals=[1,2,3,4];
