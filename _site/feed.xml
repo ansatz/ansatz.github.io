@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>how-to, work, and notes</title>
+    <description>web_place holder
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 05 Apr 2015 16:56:09 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2015 16:56:09 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>dotfiles</title>
+        <description>&lt;h1 id=&quot;vimrc&quot;&gt;.vimrc&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;bundles
+    &lt;ul&gt;
+      &lt;li&gt;pathogen&lt;/li&gt;
+      &lt;li&gt;vim-ipython&lt;/li&gt;
+      &lt;li&gt;offline-docs &lt;/li&gt;
+      &lt;li&gt;nerdtree&lt;/li&gt;
+      &lt;li&gt;
+        &lt;f3&gt;
+&lt;/f3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;zeal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;paths
+    &lt;ul&gt;
+      &lt;li&gt;runtimepath&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;# &lt;/p&gt;
+
+&lt;h1 id=&quot;bashrczshrc&quot;&gt;.bashrc/.zshrc&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.howardism.org/Technical/Emacs/new-window-manager.html&quot;&gt;emacs window manager&lt;/a&gt;
+&lt;a href=&quot;http://www.drbunsen.org/the-text-triumvirate/&quot;&gt;tmux + screen + vim&lt;/a&gt;
+&lt;a href=&quot;http://learnxinyminutes.com/docs/tmux/&quot;&gt;tmux&lt;/a&gt;
+- style-ergonomics
+	- color
+	- ascii fun, graphics
+	- header/ ps1
+	- programmer-dvorak
+	- windows, close, open, move&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;functions/aliases
+    &lt;ul&gt;
+      &lt;li&gt;diff files, folders, checkhash of download/install&lt;/li&gt;
+      &lt;li&gt;dashboard [todo, weather, log]&lt;/li&gt;
+      &lt;li&gt;network [ip, printer]&lt;/li&gt;
+      &lt;li&gt;a timer&lt;/li&gt;
+      &lt;li&gt;security [network, files, gorilla, pgp] &lt;/li&gt;
+      &lt;li&gt;backups&lt;/li&gt;
+      &lt;li&gt;synchronize tablet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;docker_functions
+    &lt;ul&gt;
+      &lt;li&gt;launch jekyl-image get ip&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;paths
+    &lt;ul&gt;
+      &lt;li&gt;python&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;documentation
+    &lt;ul&gt;
+      &lt;li&gt;history log&lt;/li&gt;
+      &lt;li&gt;search&lt;/li&gt;
+      &lt;li&gt;(zeal)[http://zealdocs.org/]&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;cloud/services
+    &lt;ul&gt;
+      &lt;li&gt;amazon&lt;/li&gt;
+      &lt;li&gt;nach&lt;/li&gt;
+      &lt;li&gt;digital ocean $5/mo&lt;/li&gt;
+      &lt;li&gt;tutum&lt;/li&gt;
+      &lt;li&gt;github&lt;/li&gt;
+      &lt;li&gt;hadoop&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cronjobs&quot;&gt;cronjobs&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;- webscrapers (jobs, realestate, news)
+- backups
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;dockerfiles&quot;&gt;dockerfiles&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;system: a basic system with all needed programs (password gorilla)&lt;/li&gt;
+  &lt;li&gt;dev: vim + python + vim-ipython&lt;/li&gt;
+  &lt;li&gt;media: vlc + conkeror + adobe&lt;/li&gt;
+  &lt;li&gt;games: gpx-driver + emulator +&lt;/li&gt;
+  &lt;li&gt;anaconda: anaconda + tmpb + docker server&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tutum.co/how/&quot;&gt;tutum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;github&quot;&gt;.github&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;version control
+    &lt;ul&gt;
+      &lt;li&gt;.gitignore&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conkerorrc&quot;&gt;.conkerorrc&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;- bookmarks, synchronize
+- bookreads
+- quotes
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+        <pubDate>Mon, 30 Mar 2015 08:06:59 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/30/dotfiles.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/30/dotfiles.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>calculator</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.investopedia.com/university/student-loans/student-loans8.asp&quot;&gt;private consolidate&lt;/a&gt;
+&lt;a href=&quot;https://www.creditkarma.com/calculators/amortization&quot;&gt;amortization&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;compound&quot;&gt;compound&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;interest earns interest
+    &lt;ul&gt;
+      &lt;li&gt;amortized (means smooth)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;geometric sum of monthly pay  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;\[ L = P \sum\limits_{j=1}^n \frac{1}{(1+i)^j} \]   &lt;/p&gt;
+
+&lt;p&gt;\[ L = \frac{P}{i} (1 - \frac{1}{(1-i)^n}) \]  &lt;/p&gt;
+
+&lt;p&gt;\[ P = \frac{L_i}{1 - \exp^{-n\ln{(i+1)} }} \]   &lt;/p&gt;
+
+&lt;p&gt;where n=months, i=rate &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;total interest \( I = cN - P \), where fixed monthly(c), N=init, c=#payments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;payback-schemes&quot;&gt;payback schemes&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;snowball, etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;calculator&quot;&gt;calculator&lt;/h1&gt;
+&lt;!--
+original: 40,872.47 + 12,760.96  
+current: 45,454.74 + 12,760.96  
+interest: 2.88% both  
+monthly: $300  
+--&gt;
+&lt;p&gt;# yo&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery-1.11.2.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/jquery.sparkline.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;//cdn.jsdelivr.net/jquery.sparkline/2.1.2/jquery.sparkline.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;form&gt;
+	&lt;span class=&quot;dynamicsparkline&quot;&gt;&lt;/span&gt;	
+	&lt;input type=&quot;text&quot; id=&quot;original&quot; value=&quot;50000&quot; /&gt;original
+	&lt;br /&gt;
+	&lt;input type=&quot;text&quot; id=&quot;current&quot; /&gt;current
+	&lt;br /&gt;
+	&lt;input type=&quot;text&quot; id=&quot;accrued&quot; /&gt;accrued
+	&lt;br /&gt;
+	&lt;input type=&quot;text&quot; id=&quot;interest&quot; value=&quot;0.03&quot; /&gt;interest
+	&lt;br /&gt;
+	&lt;input type=&quot;text&quot; id=&quot;years&quot; value=&quot;5&quot; /&gt;years
+	&lt;br /&gt;
+	&lt;input type=&quot;submit&quot; value=&quot;enter&quot; /&gt;
+	&lt;span class=&quot;dynamicsparkline&quot;&gt;&lt;/span&gt;	
+&lt;/form&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function(){
+		$(&#39;.dynamicsparkline&#39;).sparkline([1,2,3,4,15], {type: &#39;bar&#39;});
+});
+
+if(!window.jQuery){
+	alert(&#39;not loaded&#39;)
+}
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+// calculate iteratively
+var r = $(&#39;#interest&#39;).val();
+var N = $(&#39;#years&#39;).val() * 12;
+var P_0 = $(&#39;#original&#39;).val();
+alert(&#39;original&#39;);
+alert( P_0);
+var im = 0;
+var arr=[];
+var N_i=0;
+
+var paid=[];
+var balance=[];
+var interest=[];
+balance[0]= P_0;
+
+function clraw() {
+	var i=0;
+	while (balance.slice(-1)[0] &gt; 0) {
+		if (i == 0) {
+			paid[0] = 0;
+			interest[0] = 0;
+			i = 1;
+			continue;
+		}
+		paid[i] = 300 + paid[i-1];
+		interest[i] = interest[i-1] + balance[i-1]*r;
+		balance[i] = balance[i-1] - paid[i] + interest[i];
+		i = i+1;
+		if (i &gt;100) {
+			break;
+		}
+	}
+}
+
+$(function(){
+		clraw();
+		alert(paid);
+		alert(balance)
+		$(&#39;.dsp&#39;).sparkline( paid, interest , {type: &#39;bar&#39;; stackedBarColor:&#39;[0, 3]&#39;; });
+});
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+C++
+&lt;span class=&quot;dsp&quot; id=&quot;c&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+//var r = $(&#39;#interest&#39;).value;
+//var N = $(&#39;#years&#39;).value * 12;
+//var P_0 = $(&#39;#original&#39;).value;
+//var im = 0;
+//var arr=[]
+//var N_i=0;
+//function pmt( P_i ) {
+//	N_i=N_i+1;
+//	var num_0 = Math.pow(1+r, N_i) * r * P_0;
+//	var den_0 = Math.pow(1+r, N_i);
+//	var c = num_0/den_0
+//	//base case
+//	P_i = P_i - c;
+//	alert (&#39;update n_i&#39;)
+//	alert(N_i)
+//	alert(P_i)
+//	im=im+1;
+//	//iter
+//	if( P_i &gt; 100 ) {
+//		alert(&#39;N_i&#39;);
+//		alert(N_i);
+//		alert(P_i)
+//		pmt( P_i ) ;
+//	}
+//	else
+//		alert(&#39;else n_i&#39;);
+//		alert(N_i)
+//		alert(P_i)
+//		return P_i  ;
+//}
+
+&lt;/script&gt;
+
+&lt;!--
+$(function{
+	var avals=[1,2,3,4];
+	alert(avals);
+	$(&#39;.dynamicsparkline&#39;).sparkline(avals);
+	});
+});
+&lt;/script&gt;
+--&gt;
+
+&lt;!--
+	//stacked barchart
+	//composite inline
+	//x-axis years blue is principal, red is interest
+	//y-axis amount in $
+	// balance ?
+
+	//amortize
+--&gt;
+
+</description>
+        <pubDate>Fri, 27 Mar 2015 10:27:36 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/27/loan-consolidate.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/27/loan-consolidate.html</guid>
+        
+        <category>finance</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>ACER  new keyboard</title>
+        <description>&lt;h1 id=&quot;new-keyboard&quot;&gt;new keyboard&lt;/h1&gt;
+&lt;p&gt;ACER v3 551g x419 laptop &lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Mar 2015 08:53:01 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/27/acer-new-keyboard.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/27/acer-new-keyboard.html</guid>
+        
+        <category>acer</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>ACER v3 551g x419 laptop</title>
+        <description>&lt;h1 id=&quot;new-keyboard&quot;&gt;new keyboard&lt;/h1&gt;
+&lt;p&gt;2015-03-27 08:43:49&lt;/p&gt;
+
+&lt;h1 id=&quot;acer-aspire-v3-551g-x419&quot;&gt;ACER ASPIRE V3-551G-X419&lt;/h1&gt;
+&lt;p&gt;pre-installed, windows8, + install ubuntu 13.04&lt;/p&gt;
+
+&lt;h1 id=&quot;resizepartition-drive&quot;&gt;1.RESIZE/PARTITION DRIVE&lt;/h1&gt;
+&lt;p&gt;## A.resize on window side
+Windows Desktop - computer icon - right chck =&amp;gt; manage compmgmt.msc
+shrink size -&amp;gt; {340GB unallocated}
+reboot to windows 2x (rescan) | SHIFT + RESTART ; troubleshoot, UEFI firmware&lt;/p&gt;
+
+&lt;p&gt;«UEFI disable»&lt;/p&gt;
+
+&lt;h2 id=&quot;bcreate-4-partition-ubuntu-install&quot;&gt;B.create 4 partition, ubuntu install&lt;/h2&gt;
+&lt;p&gt;1.sda6: add 82gb,primary,beginning,ext4,/
+2.sda7: 275.3gb, primary, beginning, ext4
+3. sda8: 1MB, Reserved BIOS Area, 
+4.sda9: 8GB, end, SWAP&lt;/p&gt;
+
+&lt;h1 id=&quot;amd-catalyst-radeon-drivers--usrshareati&quot;&gt;AMD-CATALYST radeon drivers  /usr/share/ati&lt;/h1&gt;
+&lt;p&gt;–http://wiki.colar.net/acer_v3_551g_x419_ubuntu#.UfaWCeFCF8M
+first beta drivers… no LUCK!
+–low-graphics mode
+  sudo ppa-purge ppa:makson96/fglrx
+  fglrx(0): invalid video BIOS signature!
+  var/log/Xorg.0.log.old
+  module fglrx not found
+–had to revert, uninstall driver
+removed amd catalyst via
+www.cchtml.com/index.php/Ubuntu_Raring_Installation_Guide&lt;/p&gt;
+
+&lt;p&gt;–install 13.4 proprietary drivers&lt;/p&gt;
+
+&lt;h1 id=&quot;configureinstall-apps&quot;&gt;CONFIGURE,INSTALL APPS&lt;/h1&gt;
+&lt;p&gt;http://opensas.wordpress.com/2013/04/28/taming-the-raring-ringtail/
+-scikit:pip install -U scikit-learn&lt;/p&gt;
+
+&lt;h1 id=&quot;ubuntu-will-only-boot-from-recovery-mode&quot;&gt;UBUNTU WILL ONLY BOOT FROM RECOVERY-MODE&lt;/h1&gt;
+&lt;p&gt;64-bit 13.04
+-nomodeset issue
+-Shift on powerup:options
+(1.grub-reboot)-&amp;gt;resume
+2.network-enable
+3.root shell&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;init would only boot from resume, now have to grub-refresh&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;grub&quot;&gt;GRUB&lt;/h1&gt;
+&lt;p&gt;sudo nano /etc/default/grub
+on boot press e
+tried gfxmode $linux_gfx_mode =&amp;gt; nomodeset .. not work&lt;/p&gt;
+
+&lt;h1 id=&quot;powerbattery&quot;&gt;POWER/BATTERY&lt;/h1&gt;
+&lt;p&gt;jupiter deprecated
+psensors
+sudo tlp start
+sudo tlp-stat -b /-t
+powertop
+jupiter
+sudo apt-get update
+sudo add-apt-repository ppa:webupd8team/jupiter
+sudo apt-get update
+sudo apt-get install jupiter&lt;/p&gt;
+
+&lt;p&gt;rpm –ivh
+sudo alien -i packag.npm
+sudo dpkg -i pacage.deb&lt;/p&gt;
+
+&lt;h2 id=&quot;error-log-shows-swap-fails-to-load&quot;&gt;error log shows SWAP fails to load..&lt;/h2&gt;
+
+&lt;h1 id=&quot;ssd-not-detect&quot;&gt;SSD not detect&lt;/h1&gt;
+&lt;p&gt;umount /dev/sda7/&lt;/p&gt;
+
+&lt;h1 id=&quot;boot-keys&quot;&gt;BOOT KEYS&lt;/h1&gt;
+&lt;p&gt;-esc:grub
+-f2:boot setup
+-f12:windows efi menu
+-Raining Skinny Elephants Is Never Utterly Boring
+(Alt+PrScr+r)(Alt+PrScr+s)(..+e) (+i) u b
+OR Ctrl+Alt+PrtScr(REISUB)… ‘busier’
+restart even if sys utterly broken
+-restart: sudo reboot, sudo init 6
+-shutdown: sudo poweroff, sudo shutdown -h now, sudo halt sudo init 0
+-LOG:tail -f /var/log/syslog
+-df (list file-system)&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;mkdosfs -F 32 v /dev/sda7/
+» /dev/mmcblk0/
+dmesg .»[  246.775742] mmc0: new SD card at address e624
+[  246.776025] mmcblk0: mmc0:e624 SU02G 1.84 GiB 
+[  276.770907]  mmcblk0: unknown partition table&lt;/p&gt;
+
+&lt;p&gt;gnome-session-fallback
+sudo apt-get install gnome-session-fallback&lt;/p&gt;
+
+&lt;h1 id=&quot;remove-old-drivers&quot;&gt;remove old drivers&lt;/h1&gt;
+
+&lt;h1 id=&quot;enable-multiverse&quot;&gt;enable multiverse&lt;/h1&gt;
+
+&lt;p&gt;sudo add-apt-repository “deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse”&lt;/p&gt;
+
+&lt;p&gt;lsb-release -sc »raring&lt;/p&gt;
+
+&lt;p&gt;sudo add-apt-repository “deb http://archive.ubuntu.com/ubuntu raring main universe restricted multiverse”&lt;/p&gt;
+
+&lt;p&gt;ok will just try with amd catalyist 13.4&lt;/p&gt;
+
+&lt;p&gt;sudo vi /etc/default/grub&lt;/p&gt;
+
+&lt;p&gt;GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash acpi_backlight=vendor acpi_osi=”&lt;/p&gt;
+
+&lt;p&gt;Then run sudo update-grub and reboot !&lt;/p&gt;
+
+&lt;p&gt;–amd catalyst 13.4 worked
+–tcl-stat -b helped… jupiter deprecated&lt;/p&gt;
+
+&lt;p&gt;–http://opensas.wordpress.com/2013/04/28/taming-the-raring-ringtail/
+worked flawlessly
+http://askubuntu.com/questions/65911/how-can-i-fix-a-404-error-using-a-ppa&lt;/p&gt;
+
+&lt;h1 id=&quot;can-only-start-with-ac-plug2013-08-05-1712&quot;&gt;can only start with ac-plug	2013-08-05 17:12&lt;/h1&gt;
+&lt;p&gt;had to grub-update
+then connect to network
+this was hanging..
+then tried with resume-&amp;gt; got in..
+need to fix wifi, connect seems to be problem when change dhcp location&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;2013-12-03 23:23 https://wiki.ubuntu.com/X/Troubleshooting/BlankScreen_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;/var/log/kern.log
+usb 4-4: new full-speed USB device number 3 using ohci_hcd
+[   11.600741] usb 4-4: string descriptor 0 read error: -22
+https://bbs.archlinux.org/viewtopic.php?id=116958&lt;/p&gt;
+
+&lt;p&gt;lspci -v
+00:12.0 USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11) (prog-if 10 [OHCI])
+	Subsystem: Acer Incorporated [ALI] Device 0696
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 18
+	Memory at f054d000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci_hcd&lt;/p&gt;
+
+&lt;p&gt;00:12.2 USB controller: Advanced Micro Devices [AMD] FCH USB EHCI Controller (rev 11) (prog-if 20 [EHCI])
+	Subsystem: Acer Incorporated [ALI] Device 0696
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 17
+	Memory at f054c000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: &lt;access denied=&quot;&quot;&gt;
+	Kernel driver in use: ehci-pci&lt;/access&gt;&lt;/p&gt;
+
+&lt;p&gt;00:13.0 USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11) (prog-if 10 [OHCI])
+	Subsystem: Acer Incorporated [ALI] Device 0696
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 18
+	Memory at f054b000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci_hcd&lt;/p&gt;
+
+&lt;p&gt;00:13.2 USB controller: Advanced Micro Devices [AMD] FCH USB EHCI Controller (rev 11) (prog-if 20 [EHCI])
+	Subsystem: Acer Incorporated [ALI] Device 0696
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 17
+	Memory at f054a000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: &lt;access denied=&quot;&quot;&gt;
+	Kernel driver in use: ehci-pci&lt;/access&gt;&lt;/p&gt;
+
+&lt;p&gt;lsusb
+Bus 002 Device 002: ID 1bcf:2c18 Sunplus Innovation Technology Inc. 
+Bus 004 Device 003: ID 0489:e04e Foxconn / Hon Hai 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+~$ lspci -v | grep USB
+00:10.0 USB controller: Advanced Micro Devices [AMD] FCH USB XHCI Controller (rev 03) (prog-if 30 [XHCI])
+00:12.0 USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11) (prog-if 10 [OHCI])
+00:12.2 USB controller: Advanced Micro Devices [AMD] FCH USB EHCI Controller (rev 11) (prog-if 20 [EHCI])
+00:13.0 USB controller: Advanced Micro Devices [AMD] FCH USB OHCI Controller (rev 11) (prog-if 10 [OHCI])
+00:13.2 USB controller: Advanced Micro Devices [AMD] FCH USB EHCI Controller (rev 11) (prog-if 20 [EHCI])
+~$ lspci -v &lt;/p&gt;
+
+&lt;p&gt;errors from kern.log
+Dec  3 22:48:52 ladle kernel: [   11.427587] usb 4-4: new full-speed USB device number 3 using ohci_hcd
+Dec  3 22:48:52 ladle kernel: [   11.561460] Linux video capture interface: v2.00
+Dec  3 22:48:52 ladle kernel: [   11.600741] usb 4-4: string descriptor 0 read error: -22
+Dec  3 22:48:52 ladle kernel: [   11.600787] usb 4-4: New USB device found, idVendor=0489, idProduct=e04e
+Dec  3 22:48:52 ladle kernel: [   11.600790] usb 4-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3&lt;/p&gt;
+
+&lt;p&gt;lspci -v | grep VGA
+00:01.0 VGA compatible controller: Advanced Micro Devices [AMD] nee ATI Device 9900 (prog-if 00 [VGA controller])
+01:00.0 VGA compatible controller: Advanced Micro Devices [AMD] nee ATI Thames XT [Radeon HD 7670M] (prog-if 00 [VGA controller])&lt;/p&gt;
+
+&lt;p&gt;lsb_release -a
+get version of ubuntu&lt;/p&gt;
+
+&lt;p&gt;upgrade to 13.10
+http://www.tecmint.com/upgrade-ubuntu-13-04-raring-ringtail-to-ubuntu-13-10-saucy-salamander/&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Mar 2015 08:42:27 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/27/acer.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/27/acer.html</guid>
+        
+        <category>acer</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>language</title>
+        <description>&lt;p&gt;Slovak language codification process in the 18th and 19th centuries, such as Anton Bernolák and Ľudovít Štúr, used precisely the phonological rule “write-as-you-hear” as one of the founding principles behind the codification of various Slovak dialects into the common modern language.
+&lt;a href=&quot;http://tiborsimko.org/fun-with-phonetics.html&quot;&gt;ref&lt;/a&gt;  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;programming&quot;&gt;programming&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;psychology: freedom(hack), structure(organization)
+  – humanistic, have to take other perspective
+  – non-humanistic, have to be rigid ??&lt;/li&gt;
+  &lt;li&gt;poetry? 
+  – yes need engineering as patterns/strategyies, but then need freedom/creativity to &lt;code&gt;think different&lt;/code&gt; &lt;code&gt;creative&lt;/code&gt; .. this path to good poetry and good programs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;norvig-vs-chomsky-2-cultureshttpwwwnorvigcomchomskyhtml&quot;&gt;norvig vs chomsky &lt;a href=&quot;http://www.norvig.com/chomsky.html&quot;&gt;2 cultures&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;green ideas sleep furiously&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;ikthuil&quot;&gt;ikthuil&lt;/h1&gt;
+
+</description>
+        <pubDate>Wed, 11 Mar 2015 10:48:30 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/11/language.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/11/language.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>beazely python week</title>
+        <description>&lt;h1 id=&quot;beazely-course&quot;&gt;beazely course&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;oo
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://tiborsimko.org/python-memoisation.html&quot;&gt;memoisation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;log decorator&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;generator&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;stats of restaurant&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 10:48:30 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/11/beazely.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/11/beazely.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>health</title>
+        <description>&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/bigadvan.jpg&quot; alt=&quot;&quot; width=&quot;250&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/bigadvan.jpg&quot;&gt;
+		&lt;img src=&quot;/files/bigadvan.jpg&quot; alt=&quot;&quot; width=&quot;250&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;spatial-maps&quot;&gt;spatial maps&lt;/h1&gt;
+&lt;p&gt;[body part, whole leg/arm.. {whole body} ]
+[space around body]&lt;br /&gt;
+[space of room.. to corners]&lt;br /&gt;
+[space around building]&lt;br /&gt;
+[space above city]&lt;br /&gt;
+[space around globe]    &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;each {space} is a perspective/map/blindspot  &lt;/li&gt;
+  &lt;li&gt;exercise in perceiving through different lenses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-to-improve&quot;&gt;how to improve&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;/files/starcraft.pdf&quot;&gt;starcraft&lt;/a&gt;
+&lt;a href=&quot;&quot;&gt;freethrows&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;feedback loop&lt;/li&gt;
+  &lt;li&gt;see how bad you ** really ** are 
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;’..and you are the easiest person to fool’&lt;/strong&gt; , feynman&lt;/li&gt;
+      &lt;li&gt;how to &lt;strong&gt;see&lt;/strong&gt; weakness?:&lt;br /&gt;
+  contrast to expert, group, tutor, step outside comfort zone &lt;/li&gt;
+      &lt;li&gt;losing_streaks or wrong challenge?&lt;br /&gt;
+  do not allow one to perceive/visualize/intuit the actual problem&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;something to prove, achieve self-image
+    &lt;ul&gt;
+      &lt;li&gt;prove to oneself&lt;/li&gt;
+      &lt;li&gt;ie, i will wake up at 6am to workout.. prove identity of persona to oneself, that yes I fundamentally am of that persona -&amp;gt;&lt;/li&gt;
+      &lt;li&gt;(more than robust, overcome setback), but actual improvement in skill&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/turtle.jpg&quot; alt=&quot;&quot; width=&quot;375&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/turtle.jpg&quot;&gt;
+		&lt;img src=&quot;/files/turtle.jpg&quot; alt=&quot;&quot; width=&quot;375&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;anxietyhttpsmedicalmiteducommunitysleepresources&quot;&gt;&lt;a href=&quot;https://medical.mit.edu/community/sleep/resources&quot;&gt;anxiety&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;two sensations (hot/cold) at once ?
+    &lt;ul&gt;
+      &lt;li&gt;see how things arise&lt;/li&gt;
+      &lt;li&gt;look at contrast, see beyond state&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;body map
+    &lt;ul&gt;
+      &lt;li&gt;reading the book vs watching the movie
+  introverted vs extroverted&lt;/li&gt;
+      &lt;li&gt;awareness, pit of neck, shoulder &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;group/mimic
+    &lt;ul&gt;
+      &lt;li&gt;mental map&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;time distortion (…just a few minutes)
+    &lt;ul&gt;
+      &lt;li&gt;try to better map out the time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/toxins.png&quot; alt=&quot;&quot; width=&quot;275&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/toxins.png&quot;&gt;
+		&lt;img src=&quot;/files/toxins.png&quot; alt=&quot;&quot; width=&quot;275&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;neurotoxinshttpwwwtheatlanticcomfeaturesarchive201403the-toxins-that-threaten-our-brains284466singlepagetrue&quot;&gt;&lt;a href=&quot;http://www.theatlantic.com/features/archive/2014/03/the-toxins-that-threaten-our-brains/284466/?single_page=true&quot;&gt;neurotoxins&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;manganese
+    &lt;ul&gt;
+      &lt;li&gt;soda cans&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;flouride
+    &lt;ul&gt;
+      &lt;li&gt;toothpaste&lt;/li&gt;
+      &lt;li&gt;higher levels than china&lt;/li&gt;
+      &lt;li&gt;home distillation $100-$400&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;chloropyrifos
+    &lt;ul&gt;
+      &lt;li&gt;bug spray, pesticide&lt;/li&gt;
+      &lt;li&gt;eat top ten &lt;a href=&quot;http://www.ewg.org/foodnews/&quot;&gt;ewg&lt;/a&gt; organic&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ddt/dde
+    &lt;ul&gt;
+      &lt;li&gt;apples&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;tetrachlor-ethylene&lt;/li&gt;
+  &lt;li&gt;polybrominated diphenyl ethers
+    &lt;ul&gt;
+      &lt;li&gt;flame-retardant&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;arsenic&lt;/li&gt;
+  &lt;li&gt;lead(paint)
+    &lt;ul&gt;
+      &lt;li&gt;childrens toys&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;mercury
+    &lt;ul&gt;
+      &lt;li&gt;fish&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;polychlorinated biphenyl(pcb)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;toluene
+    &lt;ul&gt;
+      &lt;li&gt;gasoline, plastice bottles&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;sleephttpwwwsupermemocomarticlessleephtm&quot;&gt;&lt;a href=&quot;http://www.supermemo.com/articles/sleep.htm&quot;&gt;sleep&lt;/a&gt;&lt;/h1&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/Circadian.gif&quot; alt=&quot;sleep&quot; width=&quot;380&quot;/&gt;
+	&lt;figcaption&gt;&quot;sleep&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/Circadian.gif&quot;&gt;
+		&lt;img src=&quot;/files/Circadian.gif&quot; alt=&quot;sleep&quot; width=&quot;380&quot; title=&quot;sleep&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;sleep&quot;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;litmus test: &lt;code&gt;fun&lt;/code&gt; because you are ready, for work or sleep&lt;/li&gt;
+  &lt;li&gt;2 components circadian, homeostatic&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;circadian: tendency to maintain sleep , go to sleep at time when drowsy, not before or later&lt;/li&gt;
+      &lt;li&gt;homeostatic: more you work/learn.. more tendency to fall asleep (sleep inertia) +15-19 hrs after wake&lt;/li&gt;
+      &lt;li&gt;sleep inertia –can only feel as grogginess when wake up, not good&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;only thing can control is sleep inertia, ie how quickly fall asleep, how quickly wake up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Kwalitee: It looks like quality, it sounds like quality, but it’s not
+quite quality.
+–CPAN Testing Service (quoting Schwern)&lt;/p&gt;
+
+&lt;h1 id=&quot;gtdhttphambergnogtd&quot;&gt;&lt;a href=&quot;http://hamberg.no/gtd/&quot;&gt;gtd&lt;/a&gt;&lt;/h1&gt;
+
+&lt;!--
+include image.html url=&quot;http://hamberg.no/gtd/images/workflow.svg&quot; description=&#39;flow&#39; wide=&quot;300&quot;
+ include image.html url=&quot;/files/workflow.svg&quot; description=&#39;flow&#39; wide=&quot;300&quot; 
+--&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;http://hamberg.no/gtd/images/workflow.svg&quot; alt=&quot;flow&quot; width=&quot;300&quot;/&gt;
+	&lt;figcaption&gt;&quot;flow&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;http://hamberg.no/gtd/images/workflow.svg&quot;&gt;
+		&lt;img src=&quot;http://hamberg.no/gtd/images/workflow.svg&quot; alt=&quot;flow&quot; width=&quot;300&quot; title=&quot;flow&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;flow&quot;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FLOWCHART
+    &lt;ul&gt;
+      &lt;li&gt;IN, everything goes into in&lt;/li&gt;
+      &lt;li&gt;ACTIONABLE »less than 2 min DO NOW&lt;/li&gt;
+      &lt;li&gt;PROJECT/wait_next » &amp;gt;2min assign to project flow/wait &lt;/li&gt;
+      &lt;li&gt;NEXTACTION » the next thing you should do&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ACTION
+    &lt;ul&gt;
+      &lt;li&gt;break todo into physical tasks –ie really flex&lt;/li&gt;
+      &lt;li&gt;note the wait for, ie the action is moving, » important&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;procrastinate&quot;&gt;procrastinate&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;fear
+    &lt;ul&gt;
+      &lt;li&gt;always do what you are afraid/hesistant of&lt;/li&gt;
+      &lt;li&gt;immunity to change&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;book&quot;&gt;book&lt;/h1&gt;
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;http://img1.imagesbn.com/p/9781250001672_p0_v1_s260x420.JPG&quot; alt=&quot;&quot; width=&quot;125&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;http://img1.imagesbn.com/p/9781250001672_p0_v1_s260x420.JPG&quot;&gt;
+		&lt;img src=&quot;http://img1.imagesbn.com/p/9781250001672_p0_v1_s260x420.JPG&quot; alt=&quot;&quot; width=&quot;125&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;birth rite&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;picasso son, entitlement leaves one demoralised&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;changeling fish, envt/subltle factors mediate winner inside&lt;/li&gt;
+  &lt;li&gt;how does power corrupt? does it change personality/patterns behaviour? what is ones need for power?&lt;/li&gt;
+  &lt;li&gt;resilience , need for success, how cope with this&lt;/li&gt;
+  &lt;li&gt;downside to winning, does it go to head? change morality, ennoble vs corrupt, kissinger aphrodisiac&lt;/li&gt;
+  &lt;li&gt;personal/local examples of power, 
+    &lt;ul&gt;
+      &lt;li&gt;ie older sibling, are they hypocrit or just following rules of power? &lt;/li&gt;
+      &lt;li&gt;how brain deal with contradictions?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;time&quot;&gt;time&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;frustrated spontaneous emmision
+    &lt;ul&gt;
+      &lt;li&gt;future effect present&lt;/li&gt;
+      &lt;li&gt;atom not emit if envt of future not capable of absorb&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;teleological
+    &lt;ul&gt;
+      &lt;li&gt;nature has final end goal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/tricep.jpg&quot; alt=&quot;&quot; width=&quot;200&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/tricep.jpg&quot;&gt;
+		&lt;img src=&quot;/files/tricep.jpg&quot; alt=&quot;&quot; width=&quot;200&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;triceps&quot;&gt;triceps&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;3 heads
+    &lt;ul&gt;
+      &lt;li&gt;long   scapula , mixture&lt;/li&gt;
+      &lt;li&gt;lateral humerus, large typeIIb, fast twitch, high power&lt;/li&gt;
+      &lt;li&gt;medial  humerus,small, type1, slow twitch, low intensity, endurance&lt;/li&gt;
+      &lt;li&gt;insert at tendon to ulna&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;exercises
+    &lt;ul&gt;
+      &lt;li&gt;medial mixture heavier, weighted dips (mass of tricep)&lt;/li&gt;
+      &lt;li&gt;long  isolation high-rep, skullcrusher, overhead dumbell extension&lt;/li&gt;
+      &lt;li&gt;lateral isolation cable pulldown&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;movement
+    &lt;ul&gt;
+      &lt;li&gt;flex wrist to shoulder &lt;/li&gt;
+      &lt;li&gt;extend wrist straight&lt;/li&gt;
+      &lt;li&gt;abduct arms away from body&lt;/li&gt;
+      &lt;li&gt;adduct arms down to side&lt;/li&gt;
+      &lt;li&gt;flexion arms above shoulder, 180 - 0&lt;/li&gt;
+      &lt;li&gt;extension arms below shoulder and behind waiste&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 11 Mar 2015 00:41:30 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/11/health.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/11/health.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>black screen</title>
+        <description>&lt;h1 id=&quot;the-fix&quot;&gt;the fix&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;sudo apt-get remove gnome-shell ubuntu-gnome-desktop    
+   sudo apt-get isntall ubuntu-desktop unity&lt;/code&gt;&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;upgrade 14.04 not work&lt;/li&gt;
+      &lt;li&gt;use radeon (open src) driver not work&lt;/li&gt;
+      &lt;li&gt;switch to gnome still causec user auth issues&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;apihttparas-pinfoblog20150313thoughts-on-explicit-graphics-apis&quot;&gt;&lt;a href=&quot;http://aras-p.info/blog/2015/03/13/thoughts-on-explicit-graphics-apis/&quot;&gt;api&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;# grub boot command line&lt;/p&gt;
+
+&lt;h1 id=&quot;corrupted-grub-chroot&quot;&gt;corrupted grub, chroot&lt;/h1&gt;
+
+&lt;h1 id=&quot;gconf-display-config&quot;&gt;gconf display config&lt;/h1&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 00:26:15 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/11/graphicsblackscreen.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/11/graphicsblackscreen.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Bayes Notes</title>
+        <description>&lt;h1 id=&quot;monty-hall-erdoshttptiborsimkoorgerdos-game-show-mistakehtml&quot;&gt;monty hall &lt;a href=&quot;http://tiborsimko.org/erdos-game-show-mistake.html&quot;&gt;erdos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h1 id=&quot;bayesian-truth-serum&quot;&gt;bayesian truth serum&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;question and k-multiple choice&lt;br /&gt;
+elicit, responder answer x_r + prediction of group_y&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;suprisingly uncommon
+	– personal estimate &lt;code&gt;x_r&lt;/code&gt; is higher, n=1
+	– group estimate &lt;code&gt;y_j&lt;/code&gt; is lower, underestimated
+	– if $x_r &amp;lt; y_j$ then &lt;code&gt;su&lt;/code&gt;
+  – true x_r is best guess of &lt;code&gt;su&lt;/code&gt; candidates&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;payoff function
+  – responder-score = $w_\theta * log(P(x)/P(y)) * entropy_KL-diverge factor$ &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;bayes equilibrium
+  – truthful answer, max responder-score &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Mar 2015 23:52:42 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/10/bayesnotes.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/10/bayesnotes.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>command line `fu</title>
+        <description>&lt;h1 id=&quot;asciihttpswwwyoutubecomwatchvqmyfkotyylg&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QMYfkOtYYlg&quot;&gt;ascii&lt;/a&gt;&lt;/h1&gt;
+
+&lt;!--
+&lt;div style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+  &lt;a href=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/chomsky-con0.html&quot;&gt;&lt;img
+    src=&quot;http://globetrotter.berkeley.edu/people2/Chomsky/images/Chomsky3.jpg&quot;
+	  title=&quot;Noam Chomsky&quot; width=106&gt;&lt;/a&gt;
+	    &lt;bR&gt;Noam Chomsky
+		&lt;/div&gt;
+
+
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;img src=&quot;/files/asciifluid.png&quot; alt=&quot;&quot; width=&quot;350&quot;/&gt;
+	&lt;figcaption&gt;&quot;&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;figure class=&quot;center&quot; style=&quot;float:right; margin:8px; text-align:center&quot;&gt;
+	&lt;a href=&quot;/files/asciifluid.png&quot;&gt;
+		&lt;img src=&quot;/files/asciifluid.png&quot; alt=&quot;&quot; width=&quot;350&quot; title=&quot;&quot; /&gt;
+	&lt;/a&gt;
+	&lt;br /&gt;&quot;&quot;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ytb
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;docker-read-ipaddress-script&quot;&gt;docker read IPAddress script&lt;/h1&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; jkl&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/fig.jekyll.docker
+    docker run -d -v &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;:/data -p 6000:6000 --name jekyll jkblog ruby -S jekyll serve --host&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0.0.0.0 --watch --force_polling
+    &lt;span class=&quot;nv&quot;&gt;fl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;docker inspect jekyll &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; grep IPAddress &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print substr($2,2,11)}&amp;#39;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;fli&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http&lt;span class=&quot;se&quot;&gt;\:\/\/&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$fl&lt;/span&gt;:4000&lt;span class=&quot;se&quot;&gt;\/&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$fli&lt;/span&gt;
+    firefox &lt;span class=&quot;nv&quot;&gt;$fli&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;multiline-shell-input-here-code-blockhttptldporgldpabshtmlhere-docshtml&quot;&gt;multiline shell input &lt;a href=&quot;http://tldp.org/LDP/abs/html/here-docs.html&quot;&gt;here code block&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;`cat «-EOF | python -
+    import sys
+	    for r in range(3): print ‘rob’
+EOF’
+# ./xscape
+function()
+{
+	(xcape -e ‘Ctrl’;)
+}
+&lt;a href=&quot;http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html&quot;&gt;bash script&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;subuser-vlc&quot;&gt;subuser vlc&lt;/h1&gt;
+&lt;p&gt;2015-03-17 13:58
+- subuser&lt;br /&gt;
+	permissions.json file to allow acces to local dir&lt;/p&gt;
+
+&lt;h1 id=&quot;one-key-two-functions-refhttptiborsimkoorgcapslock-escape-controlhtml&quot;&gt;one key two functions &lt;a href=&quot;http://tiborsimko.org/capslock-escape-control.html&quot;&gt;ref&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/alols/xcape&quot;&gt;xcape&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;make CapsLock behave like Ctrl:&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;code&gt;setxkbmap -option ctrl:nocaps&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;make short-pressed Ctrl behave like Escape:    &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;code&gt;cd ~/xcape&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code&gt;xcape -e &#39;Control_L=Escape&#39;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;If the CapsLock key gets “stuck” , revert    &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;code&gt;xmodmap -e &#39;keycode 0x42 = Caps_Lock&#39;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;dvorak&quot;&gt;dvorak&lt;/h1&gt;
+
+&lt;h1 id=&quot;transcode-flac-files-in-dir-to-mp3&quot;&gt;transcode flac files in dir to mp3&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;find . -type f -name &quot;*.flac&quot; -exec flac -d &#39;{}&#39; \;  
+find . -type f -name &quot;*.wav&quot; -exec lame -preset insane &#39;{}&#39; \;  
+find . -type f -name &quot;*.mp3&quot; -print0 -exec mv {} -t mp3 +&lt;/code&gt; 
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;\;&lt;/code&gt; passes 1 arg to command, runs repeatedly&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;+&lt;/code&gt; passes all args to command, runs once&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;packageprogram-installed&quot;&gt;package/program installed&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;` dpkg -l | grep -E &#39;^ii&#39; | grep firefox`
+`apt-cache policy firefox`
+`which chromium` &amp;gt;&amp;gt; manually install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;symbolic-link&quot;&gt;symbolic link&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;` ln -sf [TGT] [SRC]`
+`unlink [TGT] symlink`
+--	dont use rm symlink
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;PATH=/home/solver/.subuser/bin:/home/solver/anaconda/bin:/home/solver/.local/bin:/lib/security:/sbin:/usr/sbin:/home/solver/.local/bin:/home/solver/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/sbin:/home/solver/DROID/android-sdk-linux/tools:/home/solver/bin/:/home/solver/git/:/usr/lib/python2.6/:/usr/lib/python2.6/scipy:/home/solver/sandbox/LightTable/LightTable:/home/solver/bin1/conkeror2.sh:/home/solver/util1/wlanscript.sh:/home/solver/.rvm/bin:/home/solver/docker.containers/subuser/logic&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 09 Mar 2015 16:42:30 +0000</pubDate>
+        <link>http://yourdomain.com/2015/03/09/commandline.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/03/09/commandline.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
